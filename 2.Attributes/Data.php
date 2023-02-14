@@ -70,8 +70,10 @@ function validateNotBlank(ReflectionProperty $property, object $object): void
 {
     $attributes =  $property->getAttributes(NotBlank::class);
     if (count($attributes) > 0) {
+
         if (!$property->isInitialized($object))
             throw new Exception("Property $property->name Is Null");
+
         if ($property->getValue($object) == null)
             throw new Exception("Property $property->name Is Null");
     }
