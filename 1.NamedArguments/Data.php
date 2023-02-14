@@ -4,7 +4,7 @@
 // Todo Named Arguments
 // * Biasanya saat kita memanggil function, maka kita harus memasukkan argument atau parameter sesuai dengan posisinya
 // * Dengan kemampuan named argument, kita bisa memasukkan argument atau parameter tanpa harus mengikuti posisi nya
-// * Namun penggunaan named argument harus disebutkan nama argument atau parameter nya
+// * Namun penggunaan named argument harus disebutkan nama argument atau parameter nya ketika pemanggilan function
 // * Named argument juga menjadikan kode program mudah dibaca ketika memanggil function yang memiliki argument yang sangat banyak
 // * https://wiki.php.net/rfc/named_params 
 
